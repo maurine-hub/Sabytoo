@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero.jsx";
+import Features from "./components/Features";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       <main className="min-h-screen">
           <section id="hero">
             <Hero/>
+          </section>
+          <section id="features" >
+            <Features/>
           </section>
       </main>
     </>

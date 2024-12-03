@@ -38,7 +38,7 @@ export default function Header() {
 
           <Link 
             href="/contact"
-            className="bg-[#3b7ab7] hover:bg-[#2b5d90] text-white px-6 py-2 rounded-md transition-colors"
+            className="bg-[#3b7ab7] hover:bg-[#3b7ab7] text-white px-6 py-2 rounded-md transition-colors"
           >
             Contact
           </Link>
