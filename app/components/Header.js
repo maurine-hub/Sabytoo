@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import Link from 'next/image';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 
@@ -22,7 +22,7 @@ export default function Header() {
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Image src="logo.jpg" width={900} height={500} />
+          <Image src="/logo.jpg" alt="" width={50} height={50} />
           
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#hero" className="text-gray-800 hover:text-turquoise transition-colors">
@@ -38,7 +38,7 @@ export default function Header() {
 
           <Link 
             href="/contact"
-            className="bg-orange hover:bg-orange-light text-white px-6 py-2 rounded-full transition-colors"
+            className="bg-[#3b7ab7] hover:bg-[#2b5d90] text-white px-6 py-2 rounded-md transition-colors"
           >
             Contact
           </Link>
