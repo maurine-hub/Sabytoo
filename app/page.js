@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx";
 import Features from "./components/Features";
 import About from "./components/About";
 import Step from "./components/Step";
+import Mission from "./components/Mission";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
           </section>
           <section id="step" >
             <Step/>
+          </section>
+          <section id="mission" >
+            <Mission/>
           </section>
       </main>
     </>

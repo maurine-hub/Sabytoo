@@ -21,9 +21,9 @@ const List = [
 const Step = () => {
   return (
     <section className="bg-[#3b7ab7] mt-36 py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-32">
+      <div className="max-w-7xl mx-28">
         <div className='w-96'>
-          <p className='uppercase  '>step</p>
+          <p className='uppercase '>step</p>
           <h2 className="text-3xl  text-white mb-8 text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </h2>
