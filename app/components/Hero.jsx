@@ -11,9 +11,9 @@ export default function Hero() {
           <p className="text-xl md:text-2xl mb-8 ">
             Discover amazing features and possibilities
           </p>
-          <div className='flex'>
-            <input type="text" placeholder='Send a message' className='px-4 rounded-md'/>
-            <button className="bg-[#3b7ab7] hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-md inline-flex items-center transition-all">
+          <div className='flex border-2 rounded-2xl max-w-sm bg-white '>
+            <input type="text" placeholder='Send a message' className='px-4 rounded-2xl outline-none'/>
+            <button className="bg-[#3b7ab7] m-1 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-2xl inline-flex items-center transition-all">
               Get Started
               <FaArrowRight className="ml-2" />
             </button>

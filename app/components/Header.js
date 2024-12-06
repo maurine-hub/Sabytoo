@@ -25,13 +25,13 @@ export default function Header() {
           <Image src="/logo.jpg" alt="" width={50} height={50} />
           
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#hero" className="text-gray-800 hover:text-turquoise transition-colors">
+            <Link href="#hero" className="text-black font-medium hover:text-[#3b7ab7] transition-colors">
               Home
             </Link>
-            <Link href="#features" className="text-gray-800 hover:text-turquoise transition-colors">
+            <Link href="#features" className="text-black font-medium  hover:text-[#3b7ab7] transition-colors">
               Features
             </Link>
-            <Link href="#about" className="text-gray-800 hover:text-turquoise transition-colors">
+            <Link href="#about" className="text-black font-medium  hover:text-[#3b7ab7] transition-colors">
               About
             </Link>
           </nav>

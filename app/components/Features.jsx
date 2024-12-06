@@ -21,8 +21,8 @@ export default function Features() {
 
   return (
   
-    <section className="py-16 bg-white shadow-2xl md:absolute rounded-3xl left-48 -translate-y-20">
-      <div className="max-w-5xl mx-auto px-16">
+    <section className="relative h-[32rem]">
+      <div className="max-w-5xl mx-auto p-16 bg-white shadow-2xl md:absolute rounded-3xl left-48 -translate-y-20 ">
         <p className='text-[#3b7ab7] uppercase text-sm font-semibold'>Knowledge</p>
         <div className='flex items-start'>
           <h2 className="text-3xl md:text-4xl font-bold text-left mb-16  flex-1">
