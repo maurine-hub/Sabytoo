@@ -2,7 +2,7 @@
 
 const Mission = () => {
   return (
-    <div className="mx-10 my-24 md:m-36">
+    <div className="mx-10 my-24  md:mx-36 mb-64">
       <div className="flex flex-col items-center">
         <p className="text-sm text-[#3b7ab7] uppercase font-semibold">our mission</p>
         <h1 className="text-4xl font-bold text-black capitalize">Lorem ipsum dolor  </h1>

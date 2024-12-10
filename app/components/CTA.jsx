@@ -1,8 +1,8 @@
 export default function CTA() {
   return (
-    <section className="">
+    <section className="absolute -translate-y-3/4 translate-x-48">
       <div className="container mx-auto max-w-6xl bg-[#3b7ab7] rounded-lg px-16 py-6">
-        <div className="flex text-white items-center justify-between">
+        <div className="flex text-white items-center justify-evenly">
           <div>
             <p className="text-sm font-medium mb-2">TRY IT NOW</p>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">

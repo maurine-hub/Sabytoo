@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-gray-50 pt-16 pb-8">
       <CTA/>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-36">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <img src="logo.jpg" alt="" width={50} height={50}/>

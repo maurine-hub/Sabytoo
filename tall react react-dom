@@ -1,0 +1,95 @@
+[33mcommit b8f7dd2558ec2b2fbeaf826bbd033150b7f7d140[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: maurine-hub <maurine780@gmail.com>
+Date:   Sun Dec 8 13:57:37 2024 +0100
+
+    gestion du CTA et du footer
+
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 52dae6b..994d8b4 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -9,6 +9,7 @@[m
+     "lint": "next lint"[m
+   },[m
+   "dependencies": {[m
+[32m+[m[32m    "gsap": "^3.12.5",[m
+     "next": "15.0.3",[m
+     "react": "19.0.0-rc-66855b96-20241106",[m
+     "react-dom": "19.0.0-rc-66855b96-20241106",[m
+
+[33mcommit a3a11250992ab316db5d9beeca852b365a48dabf[m
+Author: maurine-hub <maurine780@gmail.com>
+Date:   Fri Dec 6 12:49:09 2024 +0100
+
+    gestion de la section about
+
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 31ba387..52dae6b 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -12,7 +12,8 @@[m
+     "next": "15.0.3",[m
+     "react": "19.0.0-rc-66855b96-20241106",[m
+     "react-dom": "19.0.0-rc-66855b96-20241106",[m
+[31m-    "react-icons": "^5.3.0"[m
+[32m+[m[32m    "react-icons": "^5.3.0",[m
+[32m+[m[32m    "swiper": "^11.1.15"[m
+   },[m
+   "devDependencies": {[m
+     "postcss": "^8",[m
+
+[33mcommit b38122c919f46486c66550f91706e6ad264c12d7[m
+Author: maurine-hub <maurine780@gmail.com>
+Date:   Tue Dec 3 11:54:46 2024 +0100
+
+    gestion du hero
+
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 20e086a..31ba387 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -9,9 +9,10 @@[m
+     "lint": "next lint"[m
+   },[m
+   "dependencies": {[m
+[32m+[m[32m    "next": "15.0.3",[m
+     "react": "19.0.0-rc-66855b96-20241106",[m
+     "react-dom": "19.0.0-rc-66855b96-20241106",[m
+[31m-    "next": "15.0.3"[m
+[32m+[m[32m    "react-icons": "^5.3.0"[m
+   },[m
+   "devDependencies": {[m
+     "postcss": "^8",[m
+
+[33mcommit 8c39c34cd65b503181bcd71c3914654e2eada831[m
+Author: maurine-hub <maurine780@gmail.com>
+Date:   Mon Dec 2 12:27:49 2024 +0100
+
+    Initial commit from Create Next App
+
+[1mdiff --git a/package.json b/package.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..20e086a[m
+[1m--- /dev/null[m
+[1m+++ b/package.json[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "name": "my-app",[m
+[32m+[m[32m  "version": "0.1.0",[m
+[32m+[m[32m  "private": true,[m
+[32m+[m[32m  "scripts": {[m
+[32m+[m[32m    "dev": "next dev",[m
+[32m+[m[32m    "build": "next build",[m
+[32m+[m[32m    "start": "next start",[m
+[32m+[m[32m    "lint": "next lint"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "dependencies": {[m
+[32m+[m[32m    "react": "19.0.0-rc-66855b96-20241106",[m
+[32m+[m[32m    "react-dom": "19.0.0-rc-66855b96-20241106",[m
+[32m+[m[32m    "next": "15.0.3"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "devDependencies": {[m
+[32m+[m[32m    "postcss": "^8",[m
+[32m+[m[32m    "tailwindcss": "^3.4.1"[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
