@@ -56,22 +56,27 @@ export default function Hero() {
 
   return (
     <AnimationManager animationTargets={animations}>
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 -dark">
-      <div className="container mx-auto px-4 py-16">
-        <div className="max-w-3xl  text-left text-black">
+    <section className="min-h-screen   bg-gradient-to-br from-blue-50 to-blue-100 pt-10">
+      <div className=" items-center justify-center container mx-auto px-4 py-16 md:flex">
+        <div className="max-w-2xl  text-left text-black">
           <h1 className="hero-text text-4xl md:text-6xl font-bold mb-6">
             Welcome to Our Modern Platform
           </h1>
           <p className="hero-subtext text-xl md:text-2xl mb-8 ">
             Discover amazing features and possibilities
           </p>
-          <div className='hero-button flex border-2 rounded-2xl max-w-sm bg-white '>
-            <input type="text" placeholder='Send a message' className='px-4 rounded-2xl outline-none'/>
-            <button className=" bg-[#3b7ab7] m-1 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-2xl inline-flex items-center transition-all">
+          <div className='hero-button flex items-center max-w-48 '>
+            {/* <input type="text" placeholder='Send a message' className='px-4 rounded-2xl outline-none'/> */}
+            {/* <button className=" bg-[#3b7ab7] m-1 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-2xl inline-flex items-center transition-all">
               Get Started
               <FaArrowRight className="ml-2" />
-            </button>
+            </button> */}
+              <img src="/images/btn1.png" alt="" />
+              <img src="/images/btn2.png" alt="" className='h-16 w-52' />
           </div>
+        </div>
+        <div>
+          <img src="/images/first.png" alt="" width={500} height={300} />
         </div>
       </div>
     </section>

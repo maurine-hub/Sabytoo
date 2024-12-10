@@ -2,7 +2,7 @@
 
 import FeatureCard from './features/FeatureCard'
 import SectionTitle from './features/SectionTitle'
-import { features } from './features/FeatureData.jsx'
+import FeatureData from './features/FeatureData.json'
 
 export default function Features() {
   return (
@@ -14,7 +14,7 @@ export default function Features() {
         />
 
         <div className="space-y-20">
-          {features.map((feature, index) => (
+          {FeatureData.features.map((feature, index) => (
             <FeatureCard 
               key={feature.title}
               feature={feature}

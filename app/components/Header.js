@@ -22,7 +22,7 @@ export default function Header() {
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Image src="/logo.jpg" alt="" width={50} height={50} />
+          <Image src="/images/logo1.png" alt="" width={200} height={80} />
           
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#hero" className="text-black font-medium hover:text-[#3b7ab7] transition-colors">
@@ -33,6 +33,12 @@ export default function Header() {
             </Link>
             <Link href="#about" className="text-black font-medium  hover:text-[#3b7ab7] transition-colors">
               About
+            </Link>
+            <Link href="#step" className="text-black font-medium  hover:text-[#3b7ab7] transition-colors">
+              Step
+            </Link>
+            <Link href="#mission" className="text-black font-medium  hover:text-[#3b7ab7] transition-colors">
+              Mission
             </Link>
           </nav>
 

@@ -5,7 +5,8 @@ export default function FeatureCard({ feature, isReversed }) {
     <div className={`flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 md:gap-12`}>
       <div className="w-full md:w-1/2">
         <div className="aspect-video bg-gray-100 rounded-2xl overflow-hidden">
-          <div className="w-full h-full bg-gray-200 animate-pulse" />
+          <img src={feature.image} alt="" className="object-cover  h-full " />
+          {/* <div className="w-full h-full bg-gray-200 animate-pulse" /> */}
         </div>
       </div>
       

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 mt-36">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
-            <img src="logo.jpg" alt="" width={50} height={50}/>
+            <img src="/images/logo.png" alt="" width={50} height={50}/>
             <p className="text-gray-600">
               Creating amazing solutions for your business needs.
             </p>
