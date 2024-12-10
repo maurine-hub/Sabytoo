@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero.jsx";
-import Features from "./components/Features";
+import Features2 from "./components/Features2"
 import About from "./components/About";
 import Step from "./components/Step";
 import Mission from "./components/Mission";
@@ -17,7 +17,7 @@ export default function Home() {
             <Hero/>
           </section>
           <section id="features" >
-            <Features/>
+            <Features2/>
           </section>
           <section id="about" >
             <About/>
